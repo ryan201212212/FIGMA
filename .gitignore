@@ -1,0 +1,15 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# All folders and files starting with "test_"
+test_*/
+
+# Specific Directories
+diffusers/
+peft/
+Data/
+Experiment/
+
