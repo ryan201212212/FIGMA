@@ -14,5 +14,5 @@ Data/
 Experiment/
 
 # Specific Files
-config.josn
-Note.md
+**/config.josn
+**/Note.md
