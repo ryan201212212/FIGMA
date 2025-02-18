@@ -13,3 +13,6 @@ peft/
 Data/
 Experiment/
 
+# Specific Files
+config.josn
+Note.md
