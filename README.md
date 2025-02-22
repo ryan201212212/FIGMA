@@ -43,7 +43,7 @@ git push origin working_{이니셜}
 
 - Data/Seed/Seed_Image(230개jpg) : 샘플링한 KFashion 데이터이미지(Samp_KFashion_Image) 
 - Data/Seed/EN_Seed_Label(230개json) : 영문 캡션 라벨( Prompt, Input, Add_Info, Output)
-- Data/Seed/Integrated_Seed_data(2,230개) : KFasion Image + EN_Seed_data + Total Image data 
+- Data/Seed/Integrated_Seed_data(2,230개) : Seed_Image + EN_Seed_data + Augment_KFashion_Image(old) + Augment_KFashion_Image(new)
 
 - Data/Augment/Augment_KFashion_Image(1,770개jpg) : KFashion 데이터 카테고리 별로 샘플링 후 옷 크롭 이미지(Seed에서 사용 안한 이미지) 
 - Data/Augment/Augment_CLIP(1,770개json) : 샘플링한 KFashion 데이터 이미지(Augment_KFashion_Image)에 대한 CLIP 증강 캡션 라벨
